@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "run-p -l type-check:watch start:dev",
+    "start": "run-p -l type-check:watch start:prod",
     "start:dev": "webpack serve --mode development --config webpack.dev.js",
     "start:prod": "webpack serve --mode production --config webpack.prod.js",
     "build:dev": "npm run type-check && webpack --mode development --config webpack.dev.js",
