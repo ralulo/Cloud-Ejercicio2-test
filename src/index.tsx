@@ -1,5 +1,5 @@
 import "./mystyle.scss";
-import logoImg from "/content/logo.png";
+import logoImg from './content/logo.png';
 
 
 
