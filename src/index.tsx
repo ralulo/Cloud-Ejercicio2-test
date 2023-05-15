@@ -1,5 +1,5 @@
 import "./mystyle.scss";
-// import logoImg from "./content/logo.png";
+import logoImg from "./content/logo.png";
 
 
 
@@ -10,10 +10,10 @@ para.innerText = message;
 document.getElementById("texto").appendChild(para);
 
 
-// const img:HTMLImageElement = document.createElement("img");
-// img.src = logoImg;
+const img:HTMLImageElement = document.createElement("img");
+img.src = logoImg;
 
-// document.getElementById("logo-container").appendChild(img);
+document.getElementById("logo-container").appendChild(img);
 
 
 
